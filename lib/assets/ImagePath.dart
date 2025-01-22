@@ -1,0 +1,37 @@
+class ImagePath{
+  static const String birthday='images/birthday.png';
+  static const String book_club='images/book_club.png';
+  static const String eating='images/eating.png';
+  static const String egypt='images/egypt.png';
+  static const String exhibition='images/exhibition.png';
+  static const String gaming='images/gaming.png';
+  static const String google='images/google.png';
+  static const String holiday='images/holiday.png';
+  static const String meeting='images/meeting.png';
+  static const String sport='images/sport.png';
+  static const String usa='images/usa.png';
+  static const String work_shop='images/work_shop.png';
+  static const String evently='images/evently.png';
+  static const String forget_password='images/forget_password.png';
+  static const String route='images/route.png';
+  static const String map='images/map.png';
+  static const String map_select='images/map_select.png';
+  static const String love='images/love.png';
+  static const String love_select='images/love_select.png';
+  static const String profile='images/profile.png';
+  static const String profile_select='images/profile_select.png';
+  static const String home='images/home.png';
+  static const String home_select='images/home_select.png';
+  static const String sun='images/sun.png';
+  static const String lock='images/lock.png';
+  static const String message='images/message.png';
+  static const String page1='images/page1.png';
+  static const String page2='images/page2.png';
+  static const String page3='images/page3.png';
+  static const String rowEvently='images/rowEvently.png';
+  static const String moon='images/moon.png';
+  static const String clock='images/clock.png';
+  static const String calendar='images/calendar.png';
+  static const String edit='images/edit.png';
+  static const String location='images/location.png';
+}
