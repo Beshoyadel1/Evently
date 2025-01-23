@@ -345,7 +345,8 @@ class _AddEventHomeState extends State<AddEventHome> {
                         borderRadius: BorderRadius.circular(13),
                       ),
                     ),
-                    onPressed: () async {
+                   onPressed: (){},
+                   /* onPressed: () async {
                       // Open Google Maps
                       await showDialog(
                         context: context,
@@ -378,7 +379,7 @@ class _AddEventHomeState extends State<AddEventHome> {
                           ],
                         ),
                       );
-                    },
+                    },*/
                     child: Container(
                       padding: EdgeInsets.all(5),
                       child: Row(

@@ -68,52 +68,54 @@ class _Forget_PasswordState extends State<Forget_Password> {
           style: Fontspath.w400Inter20(color: AppColors.blackcolor),
         ),
       ),
-      body: Column(
-        crossAxisAlignment: CrossAxisAlignment.stretch,
-        children: [
-          Image.asset(ImagePath.forget_password),
-          SizedBox(height: 10),
-          // Email input field
-          Container(
-            margin: const EdgeInsets.all(10),
-            padding: const EdgeInsets.all(10),
-            child: TextField(
-              controller: emailController,
-              keyboardType: TextInputType.emailAddress,
-              decoration: InputDecoration(
-                labelText: 'Enter your email',
-                errorText: errorMessage.isNotEmpty ? errorMessage : null,
-                border: OutlineInputBorder(),
-              ),
-            ),
-          ),
-          Container(
-            margin: const EdgeInsets.all(10),
-            padding: const EdgeInsets.all(10),
-            child: ElevatedButton(
-              style: ElevatedButton.styleFrom(
-                backgroundColor: AppColors.primarycolor,
-                shape: RoundedRectangleBorder(
-                  borderRadius: BorderRadius.circular(10),
+      body: SingleChildScrollView(
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.stretch,
+          children: [
+            Image.asset(ImagePath.forget_password),
+            SizedBox(height: 10),
+            // Email input field
+            Container(
+              margin: const EdgeInsets.all(10),
+              padding: const EdgeInsets.all(10),
+              child: TextField(
+                controller: emailController,
+                keyboardType: TextInputType.emailAddress,
+                decoration: InputDecoration(
+                  labelText: 'Enter your email',
+                  errorText: errorMessage.isNotEmpty ? errorMessage : null,
+                  border: OutlineInputBorder(),
                 ),
               ),
-              onPressed: resetPassword,
-              child: Text(
-                AppLocalizations.of(context)!.reset_password,
-                style: Fontspath.w500Inter20(color: AppColors.whitecolor),
-              ),
             ),
-          ),
-          // Show a text message when email is verified or not found
-          if (errorMessage.isNotEmpty)
-            Padding(
+            Container(
+              margin: const EdgeInsets.all(10),
               padding: const EdgeInsets.all(10),
-              child: Text(
-                errorMessage,
-                style: TextStyle(color: Colors.red, fontSize: 16),
+              child: ElevatedButton(
+                style: ElevatedButton.styleFrom(
+                  backgroundColor: AppColors.primarycolor,
+                  shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(10),
+                  ),
+                ),
+                onPressed: resetPassword,
+                child: Text(
+                  AppLocalizations.of(context)!.reset_password,
+                  style: Fontspath.w500Inter20(color: AppColors.whitecolor),
+                ),
               ),
             ),
-        ],
+            // Show a text message when email is verified or not found
+            if (errorMessage.isNotEmpty)
+              Padding(
+                padding: const EdgeInsets.all(10),
+                child: Text(
+                  errorMessage,
+                  style: TextStyle(color: Colors.red, fontSize: 16),
+                ),
+              ),
+          ],
+        ),
       ),
     );
   }
