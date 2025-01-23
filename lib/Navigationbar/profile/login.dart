@@ -156,7 +156,7 @@ class _loginState extends State<login> {
                     Navigator.pushNamed(context, CreateAccount.RouteName);
                   },
                   child: Text(AppLocalizations.of(context)!.create_account,style: TextStyle(
-                      fontSize: 16,
+                      fontSize: 10,
                       fontWeight: FontWeight.w500,
                       fontFamily: 'Inter',
                       color: AppColors.primarycolor,
@@ -201,7 +201,7 @@ class _loginState extends State<login> {
             ),
             SizedBox(height: height*0.01),
             Container(
-              margin: const EdgeInsets.all(10),
+
               padding:const EdgeInsets.all(10),
               child: ElevatedButton(
                   style: ElevatedButton.styleFrom(

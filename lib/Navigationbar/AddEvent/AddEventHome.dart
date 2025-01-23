@@ -399,7 +399,7 @@ class _AddEventHomeState extends State<AddEventHome> {
                                 _selectedLocation == null
                                     ? AppLocalizations.of(context)!.choose_event_location
                                     : "Location: ${_selectedLocation!.latitude}, ${_selectedLocation!.longitude}",
-                                style: Fontspath.w500Inter20(color: AppColors.primarycolor),
+                                style: Fontspath.w500Inter14(color: AppColors.primarycolor),
                               ),
                             ],
                           ),

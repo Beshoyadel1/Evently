@@ -50,7 +50,7 @@ class _Home_ScreenState extends State<Home_Screen> {
           Container(
             padding: EdgeInsets.only(
                 left: width * 0.03, right: width * 0.03, top: width * 0.09),
-            height: height * 0.25,
+            height: height * 0.33,
             decoration: BoxDecoration(
               color: AppColors.primarycolor,
               borderRadius: BorderRadius.only(

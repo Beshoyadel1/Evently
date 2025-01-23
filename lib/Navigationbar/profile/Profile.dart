@@ -35,7 +35,7 @@ class _ProfileState extends State<Profile> {
           Column(
             children: [
               Container(
-                height: height * 0.26,
+                height: height * 0.3,
                 decoration: BoxDecoration(
                   color: AppColors.primarycolor,
                   borderRadius: BorderRadius.only(
@@ -53,9 +53,9 @@ class _ProfileState extends State<Profile> {
                         children: [
                           Image.asset(
                             ImagePath.route,
-                            fit: BoxFit.fill,
+                            height: height*0.15,
                           ),
-                          SizedBox(width: width * 0.1),
+
                           StreamBuilder<DocumentSnapshot>(
                             stream: FirebaseFirestore.instance
                                 .collection('user') // Assuming collection is 'users'
@@ -84,11 +84,11 @@ class _ProfileState extends State<Profile> {
                                 children: [
                                   Text(
                                     userName,
-                                    style: Fontspath.w500Inter16(color: Colors.white),
+                                    style: Fontspath.w700Inter12(color: Colors.white),
                                   ),
                                   Text(
                                     email,
-                                    style: Fontspath.w500Inter16(color: Colors.white),
+                                    style: Fontspath.w700Inter12(color: Colors.white),
                                   ),
                                 ],
                               );
