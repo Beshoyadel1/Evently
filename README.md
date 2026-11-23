@@ -29,6 +29,13 @@ flutter run
 
 Original Evently app screenshots from the [project post](https://www.linkedin.com/posts/beshoy-adel311_flutter-evently-mobileapp-activity-7295436635410690048-4GXf).
 
-<table><tr>
-<td><img src="1-evently-01.jpg" width="180" alt="Evently onboarding" /></td><td><img src="2-evently-02.jpg" width="180" alt="Evently connect with friends" /></td><td><img src="3-evently-03.jpg" width="180" alt="Evently language and theme setup" /></td><td><img src="4-evently-04.jpg" width="180" alt="Evently login" /></td><td><img src="5-evently-05.jpg" width="180" alt="Evently password reset" /></td><td><img src="6-evently-06.jpg" width="180" alt="Evently home and events" /></td><td><img src="7-evently-07.jpg" width="180" alt="Evently settings" /></td><td><img src="8-evently-08.jpg" width="180" alt="Evently create event" /></td>
-</tr></table>
+<p>
+<img src="1-evently-01.jpg" width="180" alt="Evently onboarding" />
+<img src="2-evently-02.jpg" width="180" alt="Evently connect with friends" />
+<img src="3-evently-03.jpg" width="180" alt="Evently language and theme setup" />
+<img src="4-evently-04.jpg" width="180" alt="Evently login" />
+<img src="5-evently-05.jpg" width="180" alt="Evently password reset" />
+<img src="6-evently-06.jpg" width="180" alt="Evently home and events" />
+<img src="7-evently-07.jpg" width="180" alt="Evently settings" />
+<img src="8-evently-08.jpg" width="180" alt="Evently create event" />
+</p>
